@@ -6,9 +6,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
     thumbnailElement.classList.toggle("small");
 
   })
-  // if (thumbnailElement.className == "") {
-  //   thumbnailElement.addEventListener("click", function() {
-  //     thumbnailElement.className = "small";
-  //   })
-  // }
 });

@@ -18,10 +18,14 @@ aside {
   flex: 1;
   overflow-y: auto;
 }
-/* li a {
-  color: #ffffff;
+
+/* h1, h2, h3, h4 {
+  color: #db3e3e;
 }
-li.active_page {
+li a {
+  color: #db3e3e;
+} */
+/* li.active_page {
   background-color: #DB3E3E;
   } */
 

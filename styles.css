@@ -19,14 +19,19 @@ aside {
   overflow-y: auto;
 }
 
-/* h1, h2, h3, h4 {
-  color: #db3e3e;
-}
-li a {
-  color: #db3e3e;
-} */
-/* li.active_page {
-  background-color: #DB3E3E;
-  } */
+
+li a img{
+  max-width: 50px;
+} 
+
+
+li.active_page {
+  background-color: #D72289;
+  padding: 4px;
+  border-radius: 4px;
+  }
+  li.active_page a{
+    color: #F8EC39;
+    }
 
   

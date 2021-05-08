@@ -19,6 +19,9 @@ aside {
   overflow-y: auto;
 }
 
+span.color {
+  color: #D72289;
+}
 
 li a img{
   max-width: 50px;

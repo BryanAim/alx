@@ -5,6 +5,10 @@ body {
   color: #fff ;
 }
 
+a {
+  color: #D72289;
+}
+
 main {
   display: flex;
   flex-direction: row;

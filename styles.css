@@ -1,6 +1,8 @@
 body {
   display: flex;
   flex-direction: column;
+  background-color: #343642;
+  color: #fff ;
 }
 
 main {
@@ -19,6 +21,10 @@ aside {
   overflow-y: auto;
 }
 
+header a {
+  color: #F8EC39;
+}
+
 span.color {
   color: #D72289;
 }
@@ -33,8 +39,9 @@ li.active_page {
   padding: 4px;
   border-radius: 4px;
   }
+  
   li.active_page a{
     color: #F8EC39;
     }
 
-  
+ 

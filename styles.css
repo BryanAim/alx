@@ -1,19 +1,7 @@
-body {
-  display: flex;
-  flex-direction: column;
-  background-color: #343642;
-  color: #fff ;
-}
-
 a {
   color: #D72289;
 }
 
-main {
-  display: flex;
-  flex-direction: row;
-  flex: auto;
-}
 
 article {
   flex: 2;
@@ -25,18 +13,27 @@ aside {
   overflow-y: auto;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #343642;
+  color: #fff ;
+}
+
 header a {
   color: #F8EC39;
 }
 
-span.color {
+li a:hover{
   color: #D72289;
+  background-color: #F8EC39;
+  padding: 4px;
+  border-radius: 4px;
 }
 
 li a img{
   max-width: 50px;
 } 
-
 
 li.active_page {
   background-color: #D72289;
@@ -44,8 +41,18 @@ li.active_page {
   border-radius: 4px;
   }
   
-  li.active_page a{
-    color: #F8EC39;
-    }
+li.active_page a{
+  color: #F8EC39;
+  }
 
- 
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+
+span.color {
+  color: #D72289;
+}
